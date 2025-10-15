@@ -1,5 +1,10 @@
 ## 高擎机电学习笔记(指令篇)
 
+#### 克隆旧环境
+```
+conda create --name bydmimic --clone env_new
+```
+
 #### 查看进程
 ```
 ps aux | grep ros
