@@ -1,6 +1,10 @@
 ## 高擎机电学习笔记(指令篇)
 
-#### 克隆旧环境
+#### 控制和发布头部电机
+```
+rostopic pub -1 /pi_plus_absolute sensor_msgs/JointState "name: ['head_yaw_joint','head_pitch_joint']
+position: [0, 0]"
+```### 克隆旧环境
 ```
 conda create --name bydmimic --clone env_new
 ```
